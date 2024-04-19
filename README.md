@@ -8,7 +8,7 @@
 ### OBS: Se não funcionar, teste o arquivo ZIP!
 
 ### DIAGRAMA DA ÁRVORE INVERTIDA:
-
+![INDEX_20240418_211002_0000](https://github.com/mareshbard/CatBook/assets/125154278/5bf1f073-1685-48e5-9792-aa6398d8bab3)
 
 ### Esboço no Figma:
 ![Group 10 (1)](https://github.com/mareshbard/CatBook/assets/125154278/3320d521-d177-494d-bce4-666829229799)
