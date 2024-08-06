@@ -19,6 +19,13 @@
 - Sistema de avaliação
   (MELHORAR JS)
 
+# AULA 15
+
+API 
+rotina: 
+XML: criar tags proprias, complexo
+RPC:
+NAO POPULAR, MAIS ANTIGO Q O SOAP
 
 
 
