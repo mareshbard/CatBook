@@ -4,7 +4,7 @@
 
 ## Repositório destinado a armazenar os arquivos do site para o trabalho de Programação Web!
 
-### Link para o projeto no Replit: https://replit.com/@leticiavpg/CatbooksFinal
+### Link para o projeto no Replit: [https://replit.com/@leticiavpg/CatbooksFinal](https://replit.com/@analuizag59/CatbooksFinal2)
 ### OBS: Se não funcionar, teste o arquivo ZIP!
 
 ### DIAGRAMA DA ÁRVORE INVERTIDA:
