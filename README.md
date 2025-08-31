@@ -13,19 +13,7 @@
 ### Esboço no Figma:
 ![Group 10 (1)](https://github.com/mareshbard/CatBook/assets/125154278/3320d521-d177-494d-bce4-666829229799)
 
-### Funcionalidades a implementar:
-- Login + BD
-- Adicionar mais categorias
-- Sistema de avaliação
-  (MELHORAR JS)
 
-# AULA 15
-
-API 
-rotina: 
-XML: criar tags proprias, complexo
-RPC:
-NAO POPULAR, MAIS ANTIGO Q O SOAP
 
 
 
