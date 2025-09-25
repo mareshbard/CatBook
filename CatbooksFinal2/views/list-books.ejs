@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de Livros</title>
+</head>
+<body>
+  <h1>Lista de Livros</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Título</th>
+        <th>Autor</th>
+        <th>Ano de Publicação</th>
+        <th>Resumo</th>
+        <th>Gênero</th>
+        <th>Imagem</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% livros.forEach(function(livro) { %>
+      <tr>
+        <td><%= livro.titulo %></td>
+        <td><%= livro.autor %></td>
+        <td><%= livro.ano_publicacao %></td>
+        <td><%= livro.resumo %></td>
+        <td><%= livro.genero %></td>
+        <td>
+          <% if (livro.imagem) { %>
+            <img src="<%= livro.imagem %>" alt="<%= livro.titulo %>" width="100">
+          <% } else { %>
+            Sem imagem
+          <% } %>
+        </td>
+      </tr>
+      <% }); %>
+    </tbody>
+  </table>
+</body>
+</html>

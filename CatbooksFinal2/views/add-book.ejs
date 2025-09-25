@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stylesheets/style4.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar Livro</title>
+    
+</head>
+<body>
+    <h1>Adicionar Novo Livro</h1>
+
+    <form action="/add-book" method="POST" enctype="multipart/form-data">
+        <label for="titulo">Título:</label>
+        <input type="text" id="titulo" name="titulo" required><br><br>
+
+        <label for="autor">Autor(a):</label>
+        <input type="text" id="autor" name="autor" required><br><br>
+
+        <label for="ano_publicacao">Ano de Publicação:</label>
+        <input type="number" id="ano_publicacao" name="ano_publicacao" required><br><br>
+
+        <label for="resumo">Resumo:</label>
+        <textarea id="resumo" name="resumo" required></textarea><br><br>
+
+        <label for="genero">Gênero:</label>
+        <input type="text" id="genero" name="genero" required><br><br>
+
+        <label for="categoria">Categoria:</label>
+        <select id="categoria" name="categoria" required>
+            <option value="classico">Clássico</option>
+            <option value="lancamento">Lançamento</option>
+        </select><br><br>
+
+        <label for="imagem">Imagem:</label>
+        <input type="file" id="imagem" name="imagem" accept="image/*" required><br><br>
+
+        <button type="submit">Adicionar Livro</button>
+    </form>
+</body>
+</html>

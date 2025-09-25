@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="stylesheets/style2.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CATBOOKS</title>
+  <script src="https://kit.fontawesome.com/5dedad8172.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+    rel="stylesheet">
+  <script>
+    function redirectToDetails(imageId) {
+      window.location.href = "detalhes.html?image=" + imageId;
+    }
+    function goBack() {
+      window.history.back();
+    }
+
+  </script>
+</head>
+
+<body>
+
+  <% include partials/header %>
+    <div class="button"> 
+      <button onclick="goBack()"><i class="fa fa-arrow-left" aria-hidden="true"></i></button>
+    </div>
+  <div class="container8">
+  <div class="container10">
+    <div class="card" style="width: 18rem;">
+      <img src="/img/me.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Criadora: Leticia Gomes</h5>
+        <p class="card-text"> 
+          <pre>
+    INFORMAÇÕES:
+
+    CURSO: Informática
+    PERÍODO: 5
+    IDADE: 17 anos
+    HOBBIES: Ler, desenhar, ouvir música...
+            </pre>
+        <a href="https://github.com/mareshbard" class="btn btn-primary">Projetos</a>
+      </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+</body>
+
+
+</html>

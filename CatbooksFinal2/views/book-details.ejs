@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= livro.titulo %></title>
+  <link rel="stylesheet" href="stylesheets/style2.css">
+</head>
+<body>
+  <% include partials/header %>
+  <div class="container4">
+    <div class="button"> 
+      <button onclick="goBack()"><i class="fa fa-arrow-left" aria-hidden="true"></i></button>
+    </div>
+    <h2>Título: <%= livro.titulo %></h2>
+
+    <img src="<%= livro.imagem %>" alt="Imagem do livro">
+    <p>Avalie:</p>
+    <div class="rating">
+      <input type="radio" id="star1" name="rating" value="1"><label for="star1"></label>
+      <input type="radio" id="star2" name="rating" value="2"><label for="star2"></label>
+      <input type="radio" id="star3" name="rating" value="3"><label for="star3"></label>
+      <input type="radio" id="star4" name="rating" value="4"><label for="star4"></label>
+      <input type="radio" id="star5" name="rating" value="5"><label for="star5"></label>
+    </div>
+
+
+    <div class="info">
+      <div class="item-info">
+        <p>Autor(a): <%= livro.autor %></p>
+        <p>Ano de publicação: <%= livro.ano_publicacao %></p>
+        <p>Resumo: <%= livro.resumo %></p>
+        <div class="info2">
+          <div class="column">
+            <div class="container">
+              <div class="column">
+                <div class="square"></div>
+              </div>
+              <div class="column">
+                <p><%= livro.genero %></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <script>
+      function goBack() {
+        window.history.back(); // Isso leva o usuário de volta à página anterior
+      }
+    </script>
+
+</body>
+</html>
